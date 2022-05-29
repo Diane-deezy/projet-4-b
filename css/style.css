@@ -29,10 +29,6 @@ a:hover {
     position: relative;
 }
 
-#bloc-6 {
-    height: 200px;
-}
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -650,16 +646,11 @@ a {
     color: #575757!important;
 }
 
-.hero-bloc-text-sub {
-    font-size: 16px;
-    width: 80%;
-    margin: auto;
-    padding-top: 15px;
-    color: #FFFFFF!important;
-    text-align: center;
+.hero-bloc-text {
+    font-size: 38px;
 }
 
-.hero-bloc-text {
+.hero-bloc-text-sub {
     font-size: 36px;
 }
 
@@ -671,22 +662,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-#bloc-7{
-    width: 80%;
-    margin: auto;
-}
-
-#bloc-7 .container {
-    width: 80%;
-    margin: auto;
-}
-
-#bloc-7 p {
-    font-size: 15px;
-    text-align: center;
-    margin-top: 2%;
 }
 
 p {
@@ -871,13 +846,13 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -896,8 +871,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: auto;
-        padding-right: auto;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -907,8 +882,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: auto;
-        padding-right: auto;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
     bloc-lg {
         padding: 0;
@@ -1047,9 +1022,6 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
-    }
-    .row {
-        padding: 20px 0;
     }
 }
 
