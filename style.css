@@ -323,12 +323,12 @@ a:hover {
 }
 
 .col-sm-12 .text-center {
-    color: white;
+    color: black!important;
     font-weight: 600;
 }
 
 .col-sm-12 .text-center a .fa{
-    color:#FFF;
+    color:black;
 
 }
 
