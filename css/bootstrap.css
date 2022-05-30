@@ -5274,6 +5274,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-nav .open .dropdown-menu>li>a:hover {
         background-image: none
     }
+    .col-sm-3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 30px;
+    }
+    .col-sm-12 {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (min-width:768px) {
