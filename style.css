@@ -331,6 +331,15 @@ a:hover {
     color:black;
 
 }
+h1.text-center.hero-bloc-text.tc-white {
+    color: #F3976C!important;
+    font-weight: initial;
+}
+
+#bloc-3-what-i-do p.text-center.white {
+    font-weight: initial;
+    color: #FFFFFF!important;
+}
 
 @media (min-width: 768px) {
     .site-navigation {

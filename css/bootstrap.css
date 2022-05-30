@@ -5280,7 +5280,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         flex-wrap: nowrap;
         margin: 0 30px;
     }
-    .col-sm-12 {
+    #bloc-8 .col-sm-12 {
         display: flex;
         flex-direction: column;
     }
